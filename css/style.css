@@ -139,9 +139,46 @@ footer { text-align: center; padding: 2.5rem 0; background: var(--surface-color)
     .nav-menu { position: fixed; left: -100%; top: 70px; flex-direction: column; background-color: var(--surface-color); width: 100%; text-align: center; transition: 0.3s; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
     .nav-menu.active { left: 0; }
     .nav-menu li { margin: 1.5rem 0; }
-    .hero-image-container img { width: 250px; height: 250px; }
-    .social-links { justify-content: center; margin-bottom: 2.5rem; }
-    .social-links a { margin: 0 1rem; }
+    .hero-container { 
+        flex-direction: column; 
+        text-align: center; 
+        padding: 6rem 1.5rem 4rem; 
+        gap: 2rem; 
+        justify-content: center;
+    }
+    .hero-content { 
+        text-align: center; 
+        order: 2; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-image-container { 
+        order: 1; 
+        margin-bottom: 1rem; 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hero-image-container img { 
+        width: 220px; 
+        height: 220px; 
+    }
+    .hero-title {
+        font-size: 2.8rem; /* Adjusted for mobile */
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+    .hero-description {
+        margin: 0 auto 2rem;
+    }
+    .social-links { 
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 2rem; 
+        gap: 0.5rem;
+    }
+    .social-links a { margin: 0 0.5rem; }
     
     .skills-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
     .skill-card { padding: 1.5rem 0.5rem; }
