@@ -1,0 +1,17 @@
+{
+  "name": "Pavan Adhitya Portfolio",
+  "short_name": "PA Portfolio",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#00A3FF",
+  "description": "B.Tech CSE (AIML) Student | Aspiring Software Developer Portfolio",
+  "icons": [
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
